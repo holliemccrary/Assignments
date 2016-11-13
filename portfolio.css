@@ -1,0 +1,52 @@
+h1{
+	font-family: Helvetica;
+	font-size: 18px;
+}
+ul{
+	text-align: center;
+	padding-left: 0px;
+}	
+li{	
+	display: inline;
+}
+h2{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 36px;
+	font-style: italic;
+}
+body{
+	margin: 10px;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 3px;
+	border-color: black;
+	background-color: rgb(255, 230, 230);
+}
+#red{
+	padding-top: 20px;
+	border-top: solid black 1px;
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 22px;
+	text-indent: 20px;
+}
+#blue{
+	font-family: Calibri;
+	font-size: 18px;
+	margin: 20px;
+	display: block;
+}
+#green{
+	margin:20px;
+	font-family: Calibri;
+	font-size: 22px;
+	font-style: italic;
+}
+img{
+	display:block;
+	width: 50%;
+	margin: auto;	
+	border: 3px solid white;
+	padding: 28px;
+}
