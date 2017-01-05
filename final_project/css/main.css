@@ -1,0 +1,155 @@
+body{
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.container{
+	max-width: 1280px;
+	margin: auto;
+}
+
+h1{
+	font-size: 4em;
+	margin-top: 5%;
+}
+
+h2{
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#welcome{
+	background-color: #f2bfb3;
+	color: white;
+	overflow: hidden;
+	padding: 0 3%;
+	height: 400px;
+	text-align: center;
+}
+
+#menu{
+	background-color: #af5d4f;
+	text-align: center;
+}
+
+#menu nav{
+	height: 50px;
+	padding: 1.5%;
+}
+
+#menu nav a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu nav li{
+	display: inline;
+	list-style: none;
+	padding: 10%;
+}
+
+#menu nav li a:hover{
+	color: #f2ee9f;
+	font-weight: 900;
+}
+
+#about-blurb{
+	height: 400px;
+	background: url(../images/SPV-apartment.jpg) no-repeat center;
+	background-size: contain;
+	background-color: #b1d8b4;
+	padding: 2.5%;
+}
+
+#about-blurb h3{
+	color: #f2ee9f;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	padding-top: 8%;
+}
+
+#shop-now{
+	text-align: center;
+	font-size: 3em;
+	font-weight: 800;
+	padding-top: 5%;
+}
+
+#shop-now a{
+	text-decoration: none;
+	color: white;
+}
+
+#shop-now a:hover{
+	color: #f2ee9f;
+	font-weight: 900;
+}
+
+#connect{
+	height: 70px;
+	background-color: #af5d4f;
+	color: white;
+	text-align: center;
+	padding-top: 2%;
+}
+
+#connect input{
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	padding-left: 4px;
+	border: none;
+	border-radius: 2px;
+}
+
+footer{
+	height: 250px;
+	background: url(../images/logo-2.jpg) no-repeat center;
+	background-size: contain;
+	background-color: #f2bfb3;
+	color: white;
+	font-size: .8em;
+	padding: 1.5%;
+}
+
+#address{
+	display: block;
+	float: left;
+}
+
+#address li{
+	list-style: none;
+}
+
+#hours{
+	display: block;
+	float: left;
+	margin-left: 4%; 
+}
+
+#hours li{
+	list-style: none;
+}
+
+.social-media h4{
+	float: right;
+	margin-right: 0%;
+	padding-top: 14%;
+	font-size: 1em;
+}
+
+.social-media ul li{
+	margin-right: 2%;
+	display: inline-block;
+	list-style: none;
+	float: right;
+	padding: 5% 2%;
+}
+
+.social-media img{
+	max-width: 30px;
+	max-height: 28px;
+}
+	
